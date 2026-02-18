@@ -2,6 +2,15 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Code, Smartphone, Palette, Cpu, Globe, Rocket } from 'lucide-react';
 
+/**
+ * Service Configuration Array
+ * 
+ * Defines the content for each service card.
+ * - icon: Lucide-react icon component
+ * - title: Service name
+ * - desc: Short description
+ * - color: Gradient color classes for the icon background
+ */
 const services = [
     {
         icon: <Code size={30} />,
@@ -41,13 +50,19 @@ const services = [
     },
 ];
 
+/**
+ * Services Section Component
+ * 
+ * Displays a grid of services offered by the company.
+ * Each service is represented by an interactive card with hover effects.
+ */
 const Services = () => {
     return (
-        <section id="services" className="py-24 bg-slate-950 relative overflow-hidden">
+        <section id="services" className="py-24 bg-slate-50 dark:bg-slate-950 relative overflow-hidden transition-colors duration-300">
             {/* Background Elements */}
-            <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20">
-                <div className="absolute top-[20%] right-[10%] w-72 h-72 bg-purple-600 rounded-full mix-blend-screen filter blur-3xl animate-blob"></div>
-                <div className="absolute bottom-[10%] left-[5%] w-72 h-72 bg-blue-600 rounded-full mix-blend-screen filter blur-3xl animate-blob animation-delay-4000"></div>
+            <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20 dark:opacity-20">
+                <div className="absolute top-[20%] right-[10%] w-72 h-72 bg-purple-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl animate-blob"></div>
+                <div className="absolute bottom-[10%] left-[5%] w-72 h-72 bg-blue-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-3xl animate-blob animation-delay-4000"></div>
             </div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -56,7 +71,7 @@ const Services = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ amount: 0.5 }}
-                        className="text-purple-400 font-semibold tracking-wide uppercase text-sm mb-2"
+                        className="text-purple-600 dark:text-purple-400 font-semibold tracking-wide uppercase text-sm mb-2"
                     >
                         What We Do
                     </motion.h2>
@@ -65,7 +80,7 @@ const Services = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ amount: 0.5 }}
                         transition={{ delay: 0.1 }}
-                        className="text-3xl md:text-5xl font-bold text-white mb-4"
+                        className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4"
                     >
                         Our Services
                     </motion.h3>
@@ -74,7 +89,7 @@ const Services = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ amount: 0.5 }}
                         transition={{ delay: 0.2 }}
-                        className="mt-4 max-w-2xl mx-auto text-gray-400 text-lg"
+                        className="mt-4 max-w-2xl mx-auto text-slate-600 dark:text-gray-400 text-lg"
                     >
                         We offer a complete range of digital solutions to help your business grow.
                     </motion.p>
@@ -89,16 +104,16 @@ const Services = () => {
                             viewport={{ amount: 0.1 }}
                             transition={{ delay: index * 0.1 }}
                             whileHover={{ y: -10 }}
-                            className="p-8 bg-white/5 border border-white/10 rounded-3xl hover:bg-white/10 transition-all duration-300 group relative overflow-hidden backdrop-blur-sm shadow-xl"
+                            className="p-8 bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-3xl hover:shadow-xl dark:hover:bg-white/10 transition-all duration-300 group relative overflow-hidden shadow-lg dark:shadow-xl dark:backdrop-blur-sm"
                         >
-                            <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br ${service.color} opacity-10 rounded-bl-full group-hover:opacity-20 transition-opacity`}></div>
+                            <div className={`absolute top-0 right-0 w-24 h-24 bg-gradient-to-br ${service.color} opacity-5 dark:opacity-10 rounded-bl-full group-hover:opacity-10 dark:group-hover:opacity-20 transition-opacity`}></div>
 
                             <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${service.color} flex items-center justify-center text-white mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                                 {service.icon}
                             </div>
 
-                            <h4 className="text-xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors">{service.title}</h4>
-                            <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                            <h4 className="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">{service.title}</h4>
+                            <p className="text-slate-600 dark:text-gray-400 leading-relaxed group-hover:text-slate-800 dark:group-hover:text-gray-300 transition-colors">
                                 {service.desc}
                             </p>
                         </motion.div>
