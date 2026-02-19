@@ -17,7 +17,7 @@ import { Link } from 'react-scroll';
 const plans = [
     {
         name: 'Basic',
-        price: '$499',
+        price: '10,000 Rs',
         description: 'Perfect for small businesses and startups looking to establish an online presence.',
         features: [
             'Responsive Website (5 Pages)',
@@ -34,7 +34,7 @@ const plans = [
     },
     {
         name: 'Standard',
-        price: '$999',
+        price: '16,000 Rs',
         description: 'Our most popular plan for growing businesses that need a dynamic and powerful website.',
         features: [
             'Everything in Basic',
@@ -51,7 +51,7 @@ const plans = [
     },
     {
         name: 'Premium',
-        price: '$1999',
+        price: '25,000 Rs',
         description: 'Full-scale custom development for enterprises requiring top-tier performance and features.',
         features: [
             'Everything in Standard',

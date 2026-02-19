@@ -44,11 +44,11 @@ const Footer = () => {
                     <div>
                         <h3 className="text-slate-900 dark:text-white font-bold mb-6">Services</h3>
                         <ul className="space-y-4">
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Web Development</a></li>
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">App Development</a></li>
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">UI/UX Design</a></li>
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Custom Software</a></li>
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Digital Marketing</a></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">Web Development</span></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">App Development</span></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">UI/UX Design</span></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">Custom Software</span></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">Digital Marketing</span></li>
                         </ul>
                     </div>
 
@@ -56,11 +56,11 @@ const Footer = () => {
                     <div>
                         <h3 className="text-slate-900 dark:text-white font-bold mb-6">Company</h3>
                         <ul className="space-y-4">
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">About Us</a></li>
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Portfolio</a></li>
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Careers</a></li>
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Blog</a></li>
-                            <li><a href="#" className="text-slate-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 transition-colors">Contact</a></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">About Us</span></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">Portfolio</span></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">Careers</span></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">Blog</span></li>
+                            <li><span className="text-slate-600 dark:text-gray-400 cursor-default">Contact</span></li>
                         </ul>
                     </div>
 
@@ -68,9 +68,9 @@ const Footer = () => {
                     <div>
                         <h3 className="text-slate-900 dark:text-white font-bold mb-6">Contact Us</h3>
                         <ul className="space-y-4 text-slate-600 dark:text-gray-400">
-                            <li>123 Tech Street, Silicon Valley, CA 94000</li>
-                            <li>hello@servicewala.com</li>
-                            <li>+1 (555) 123-4567</li>
+                            <li>Ansal Golf Link 1, Pari Chowk Metro Station, Greater Noida, Uttar Pradesh 201310</li>
+                            <li>ashishsahani@gmail.com</li>
+                            <li>+91 8112643260</li>
                         </ul>
                     </div>
                 </div>
