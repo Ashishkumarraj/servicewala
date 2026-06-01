@@ -45,7 +45,7 @@ const Contact = () => {
                                 <Mail size={28} />
                             </div>
                             <p className="text-sm text-slate-500 dark:text-gray-500 mb-2 font-medium">Email Us</p>
-                            <a href="mailto:ashishsahani@gmail.com" className="font-semibold text-slate-900 dark:text-white text-lg group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">ashishsahani@gmail.com</a>
+                            <a href="mailto:ashishsahaniyt47@gmail.com" className="font-semibold text-slate-900 dark:text-white text-lg group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">ashishsahani@gmail.com</a>
                         </div>
 
                         {/* Phone */}
@@ -54,7 +54,7 @@ const Contact = () => {
                                 <Phone size={28} />
                             </div>
                             <p className="text-sm text-slate-500 dark:text-gray-500 mb-2 font-medium">Call Us</p>
-                            <a href="tel:+918112643260" className="font-semibold text-slate-900 dark:text-white text-lg group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">+91 8112643260</a>
+                            <a href="tel:+918112643250" className="font-semibold text-slate-900 dark:text-white text-lg group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">+91 8112643260</a>
                         </div>
 
                         {/* Visit */}
@@ -63,7 +63,7 @@ const Contact = () => {
                                 <MapPin size={28} />
                             </div>
                             <p className="text-sm text-slate-500 dark:text-gray-500 mb-2 font-medium">Visit Us</p>
-                            <p className="font-semibold text-slate-900 dark:text-white text-lg group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">Ansal Golf Link 1, Pari Chowk Metro Station, Greater Noida, Uttar Pradesh 201310</p>
+                            <p className="font-semibold text-slate-900 dark:text-white text-lg group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">P III, Near YATHARTH HOSPITAL, Greater Noida, Uttar Pradesh 201310</p>
                         </div>
                     </div>
                 </motion.div>
