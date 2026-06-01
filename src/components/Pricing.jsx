@@ -17,7 +17,7 @@ import { Link } from 'react-scroll';
 const plans = [
     {
         name: 'Basic',
-        price: '10,000 Rs',
+        price: '12,000 Rs',
         description: 'Perfect for small businesses and startups looking to establish an online presence.',
         features: [
             'Responsive Website (5 Pages)',
